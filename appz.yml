@@ -11,9 +11,8 @@ build:
     image_template: vault-1.2
 
 deploy:
-    context: alpha/DEV
+    context: sbansalec/DEV
     type: statefulset
-    ingress: none
     replicas: 1
     port:
     - 8200
